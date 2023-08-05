@@ -1,2 +1,2 @@
 # CapstoneProject
-CapstoneProject for my web devolopement course
+Capstone Project for my web devolopement course
