@@ -6,101 +6,108 @@
 body {
   background-color: #071952;
   font-family: "Montserrat", sans-serif;
-  color: #97FEED;
+  color: #97feed;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-    height: 50px;
-    background-color: #05123c;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  height: 50px;
+  background-color: #05123c;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-    list-style: none;
-    margin: 1.5rem;
+  list-style: none;
+  margin: 1.5rem;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 nav ul li a:hover {
-    color: #287c7a;
-
+  color: #287c7a;
 }
 
 .left {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .firstSection {
-    display: flex;
-    justify-content: space-around;
-    margin: 20vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 20vh;
 }
 
 .leftSection {
-    width: 30%;
-    font-size: 2.3rem;
-    margin: 70px;
+  width: 30%;
+  font-size: 2.3rem;
+  margin: 70px;
 }
 
 .rightSection {
-    width: 30%;
+  width: 30%;
 }
 
 .purple {
-    color: #287c7a;
-    font-weight: bolder;
+  color: #287c7a;
+  font-weight: bolder;
 }
 
 .rightSection img {
-    width: 80%;
+  width: 80%;
 }
 
 #element {
-    color: #287c7a;
-    font-weight: bolder;
+  color: #287c7a;
+  font-weight: bolder;
 }
-
-
 
 main hr {
-    height: 1px;
-    margin: 20px 80px ;
-    border-color:#97FEED;
+  height: 1px;
+  margin: 20px 80px;
+  border-color: #97feed;
 }
 
-
-.skill  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px;
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px;
 }
 
 .box p {
-    margin: 20px;
+  margin: 20px;
 }
 
-#wierd {
-    width: 100vh;
+.thirdSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects {
+  margin: 2rem;
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
